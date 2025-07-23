@@ -19,7 +19,7 @@ pipeline {
         stage('Run Script') {
             steps {
                 echo 'Running the script...'
-                sh './hello.sh'
+                sh 'hello.sh'
             }
         }
 
